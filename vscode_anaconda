@@ -1,0 +1,9 @@
+%%in anaconda create environment
+conda create --name myenv python=3.8  % version can change
+conda activate myenv 
+%then install the packages in this env
+
+conda install ********
+
+%% in vs code, select this env 
+
