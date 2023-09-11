@@ -6,7 +6,7 @@ python --version
 conda create --name myenv python=3.xxx  % version can change
 conda activate myenv 
 %then install the packages in this env
-
+conda install -c conda-forge shapely
 conda install ********
 
 %% in vs code, select this env 
