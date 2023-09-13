@@ -13,3 +13,12 @@ conda install ********
 To activate the Anaconda environment in VSCode, you need to select it as your Python interpreter.
 Open the Command Palette (Ctrl+Shift+P), type ‘Python: Select Interpreter’, and hit Enter.
 A list of available interpreters will appear. Select the one that corresponds to your Anaconda environment.
+
+%exodus file to h5：
+%need to install module:
+conda install -c conda-forge gdal
+conda install -c conda-forge libgdal-arrow-parquet
+ conda install "rasterio=1.2.10"
+
+additional needed:
+conda install -c conda-forge shapely
